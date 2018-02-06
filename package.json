@@ -1,5 +1,5 @@
 {
-  "name": "guidebot",
+  "name": "dat-banana-bot-js",
   "version": "2.3.5",
   "description": "A boilerplate example bot with command handler and reloadable commands. Updated and Maintained by the Idiot's Guide Community",
   "main": "index.js",
