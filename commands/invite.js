@@ -14,4 +14,4 @@ exports.help = {
   category: "Miscelaneous",
   description: "Invite me to your server1",
   usage: ".invite"
-}
+};
