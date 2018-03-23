@@ -31,7 +31,7 @@ exports.run = async (client, message, args, level) => { // eslint-disable-line n
       }
     }
   } catch (error) {
-    message.channel.send(`The following error occured \`\`\`js\n${error.stack}\`\`\``);
+    message.channel.send(`The following error occured \`\`\`js\n${error}\`\`\``);
   }
 
   function clean(text)  {
