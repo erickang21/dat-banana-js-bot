@@ -38,8 +38,8 @@ exports.conf = {
 };
 
 exports.help = {
-    name: "discord",
+    name: "textface",
     category: "Miscelaneous",
-    description: "Get the link to the hood (aka our Discord server)",
-    usage: ".discord"
+    description: "Textfaces. Dank and gucci.",
+    usage: ".textface [face]"
 };
