@@ -1,4 +1,5 @@
 exports.run = (client, message, args, level) => {
+  message.delete();
    message.channel.send(args.join(" "));
 };
 
