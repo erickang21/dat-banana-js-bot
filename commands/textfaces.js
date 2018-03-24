@@ -39,7 +39,7 @@ exports.conf = {
 
 exports.help = {
     name: "textface",
-    category: "Miscelaneous",
+    category: "Utility",
     description: "Textfaces. Dank and gucci.",
     usage: ".textface [face]"
 };

@@ -12,7 +12,7 @@ exports.conf = {
 
 exports.help = {
   name: "say",
-  category: "Miscelaneous",
+  category: "Fun",
   description: "Say something as the bot!",
   usage: "say [message]"
 };
