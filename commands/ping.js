@@ -11,7 +11,7 @@ exports.run = async (client, message, args, level) => { // eslint-disable-line n
     .setColor(0x00ff00)
     .setAuthor(`Sent by ${message.author.username}`, message.author.displayAvatarURL);
   m.edit(embed);
-  })
+  });
   
 };
 
