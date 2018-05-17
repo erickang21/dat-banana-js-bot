@@ -10,7 +10,8 @@ const { promisify } = require("util");
 const readdir = promisify(require("fs").readdir);
 const Enmap = require("enmap");
 const EnmapLevel = require("enmap-level");
-
+const Idiot = require("idiotic-api");
+client.API = new Idiot.Client("ur api key", { dev: true });
 
 const client = new Discord.Client();
 
