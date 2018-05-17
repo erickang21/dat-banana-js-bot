@@ -1,19 +1,14 @@
 exports.run = async (client, message, args, level) => { // eslint-disable-line no-unused-vars
   const Discord = require("discord.js");
-  const embed = new Discord.RichEmbed()
-    .setTitle("Pinging...")
-    .setDescription("Hang in there!")
-    .setColor(0x00ff00)
-  const msg = message.channel.send({ embed }).then(m => {
-  const em = new Discord.RichEmbed()
+  const em = new Discord.MessageEmbed()
     .setTitle("PoIIIING!")
-    .setDescription(`Bot Latency: ${msg.createdTimestamp - message.createdTimestamp}ms\nAPI Latency: ${Math.round(client.ping)}ms`)
+    .setDescription(`Bot Latency: ${Date.now() - message.createdTimestamp}ms\nAPI Latency: ${Math.round(client.ping)}ms`)
     .setColor(0x00ff00)
     .setAuthor(`Sent by ${message.author.username}`, message.author.displayAvatarURL);
-  m.edit(embed);
-  });
+  message.channel.send({embed: em});
+  };
   
-};
+
 
 exports.conf = {
   enabled: true,
