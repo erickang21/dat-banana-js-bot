@@ -25,10 +25,10 @@ client.logger = require("./util/Logger");
 require("./modules/functions.js")(client);
 
 
-client.commands = new Enmap();
-client.aliases = new Enmap();
+client.commands = new Discord.Collection()
+client.aliases = new Discord.Collection()
+client.settings = new Discord.Collection()
 
-client.settings = new Enmap({provider: new EnmapLevel({name: "settings"})});
 
 
 
