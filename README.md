@@ -1,4 +1,7 @@
-# Guide Bot
+# uwu bot
+This bot will be a cleaned up and improved version of the old uwu bot. Instead of being in Python, it is in Javascript. Though the old uwu bot does have a lot of commands, many do not work as intended. Therefore, the bot will be rewritten in a more suitable language in order to be easier to maintain and to make sure that everything works. 
+
+# Guide Bot (which this bot is based on)
 An example of a Discord.js Bot Handler. Updated and Maintained by the Idiot's Guide Community.
 
 Ages ago, Guide Bot was actually a little bot I had on the official discord.js server.
