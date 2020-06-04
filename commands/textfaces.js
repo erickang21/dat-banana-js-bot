@@ -24,8 +24,17 @@ exports.run = (client, message, args, level) => {
     case "yum":
         message.channel.send("ლ(´ڡ`ლ)");
         break;
+    case "cool":
+        message.channel.send("(▀̿Ĺ̯▀̿ ̿)");
+        break;
+    case "sniper":
+        message.channel.send("▄︻̷̿┻̿═━一")
+        break;
+    case "money":
+        message.channel.send("[̲̅$̲̅(̲̅5̲̅)̲̅$̲̅]") 
+        break;
     default:
-        message.channel.send("Boi. Please enter a textface name. Available are:\nlenny, shrug, tableflip, unflip, money, guns, music, yum")
+        message.channel.send("Boi. Please enter a textface name. Available are:\nlenny, shrug, tableflip, unflip, money, guns, music, yum, cool, sniper, money")
         break;
     }
 };
